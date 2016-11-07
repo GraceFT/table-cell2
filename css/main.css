@@ -1,0 +1,58 @@
+@font-face {
+    font-family:'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dosis Regular'), local('Dosis-Regular'), url(http://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff) format('woff');
+}
+body, div, h1, h2, h3, h4, h5, h6, 
+p, ul, ol, li, dl, dt, dd, img, form, 
+fieldset, input, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background: #ffffff;
+    font-family: Dosis, sans-serif;
+    background-image: url(../Images/wall.jpg);
+    background-attachment: fixed;
+    color:#F3E3E3;
+}
+header{
+    background-color: rgba(235,167,221,0.9);
+    width: 70%;
+    height: 120px;
+    margin: auto; 
+    border-radius: 10px;
+    text-align:center;
+}
+h3 {
+    margin-left: 20px;
+    width: 60px;
+}
+}
+nav li {
+    display: inline-block;
+    width: 150px;
+}
+
+nav li a {
+    display: table;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: rgba(235,167,221,0.9);
+    border-radius: 5px;
+    color:#fff;
+    transition: all 0.2s;
+    text-shadow: #000;
+}
+nav li a span {
+    display: table-cell;  
+}
+nav li a:hover {
+    padding-left: 50px;
+    background-image: url(../Images/bosque%20caducifolio.jpg);
+    color: rgba(81,195,123,0.9);
+}
